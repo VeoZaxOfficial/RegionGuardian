@@ -1,0 +1,12 @@
+name: RegionGuardian
+version: 1.0.2
+main: VeoZax\RegionGuardian\Main
+api: ["VeoZaxAPI"]
+description: Protects Player Regions
+website: https://github.com/VeoZaxOfficial
+
+commands:
+  rg:
+    description: Region Guardian short command
+    usage: "/rg <subcommand>"
+    aliases: ["region"]
