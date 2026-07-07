@@ -5,7 +5,7 @@
 RegionGuardian lets players claim territory, invite members, defend their base from griefing and PvP, and expand their claim by purchasing upgraded plans through EconomyAPI.
 
 [![Plugin](https://img.shields.io/badge/plugin-RegionGuardian-blue)](#)
-[![Version](https://img.shields.io/badge/version-1.0.2-brightgreen)](#)
+[![Version](https://img.shields.io/badge/version-0.14.x_0.15.10-brightgreen)](#)
 [![Platform](https://img.shields.io/badge/platform-PocketMine--MP-orange)](#)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](#license)
 
@@ -45,15 +45,12 @@ RegionGuardian gives players a self-service way to protect land on your server. 
 - 🔧 **Restricted tools & items** — flint & steel, buckets, and stone-tier tools are blocked from use inside other players' regions
 
 ## Requirements
-
-| Dependency | Notes |
-|---|---|
-| [PocketMine-MP](https://github.com/pmmp/PocketMine-MP) | Built against the legacy PocketMine API (`api: VeoZaxAPI` in `plugin.yml` — see [Configuration](#configuration)) |
-| [EconomyAPI](https://poggit.pmmp.io/p/EconomyAPI) | Required for `/rg buy`. The plugin loads without it, but plan purchases will be disabled until it's installed |
+- EconomyAPI plugin
+- PocketMine-MP API 2.0.0
 
 ## Installation
 
-1. Download the latest `RegionGuardian.phar` (or the source `.zip`) from the [Releases](../../releases) page.
+1. Download the Plugin from here: [RegionGuardian.phar]() (or the source `.zip`)
 2. Drop it into your server's `plugins/` folder.
 3. Make sure `EconomyAPI` is also installed in `plugins/`.
 4. Restart the server.
