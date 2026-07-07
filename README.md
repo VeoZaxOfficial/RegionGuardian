@@ -50,7 +50,7 @@ RegionGuardian gives players a self-service way to protect land on your server. 
 
 ## Installation
 
-1. Download the Plugin from here: [RegionGuardian.phar]() (or the source `.zip`)
+1. Download the Plugin from here: [RegionGuardian.phar](https://www.mediafire.com/file/acp8unqjwua40im/RegionGuardian.phar/file) (or the source `.zip`)
 2. Drop it into your server's `plugins/` folder.
 3. Make sure `EconomyAPI` is also installed in `plugins/`.
 4. Restart the server.
